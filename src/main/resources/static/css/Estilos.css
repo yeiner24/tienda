@@ -7,40 +7,40 @@
     position: fixed;
     text-align: center;
     background-color: cadetblue;
-    
+
 }
 
 #menu{
-    
+
     top: 10%;
     left: 0;
     height: 5%;
     width: 100%;
     position: fixed;
     background-color: coral;
-    
+
 }
 
 #barraLateral{
-    
+
     top: 15%;
     left: 0;
     height: 75%;
     width: 20%;
     position: fixed;
     background-color: darkgreen;
-    
+
 }
 
 #contenido{
-    
+
     top: 15%;
     left: 20%;
     height: 75%;
     width: 80%;
     position: fixed;
     background-color: dimgray;
-    
+
 }
 
 #piePagina{
@@ -51,5 +51,48 @@
     width: 100%;
     position: fixed;
     background-color: cyan;
-    
+
+}
+
+.parrafoRojo{
+    color: red;
+}
+
+
+.parrafoBlanco{
+    color:  white;
+}
+
+.parrafoCentrado{
+    text-align: center;
+}
+
+/*Ser mas especifico*/
+
+ /* .p{
+    font-size: 20px;
+}*/
+ 
+div.parrafoBlanco p {
+font-size: 25px;
+}
+
+/*TODO*/
+
+/** {font-size: 25px;}*/
+
+
+
+/*Ver cuando el cursor esta encima*/
+a:visited {
+    font-size: 30px;
+}
+a.hover {
+    background-color: purple;
+    color: white;
+    transition: 1s;
+}
+a:active{
+    background-color: purple;
+    color: white;
 }
